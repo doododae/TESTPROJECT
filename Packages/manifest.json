@@ -1,6 +1,5 @@
 {
   "dependencies": {
-    "com.unity.2d.animation": "file:E:/Unity/Cache/packages/packages.unity.com/com.unity.2d.animation@9.1.1",
     "com.unity.2d.sprite": "1.0.0",
     "com.unity.2d.tilemap": "1.0.0",
     "com.unity.ads": "4.4.2",
