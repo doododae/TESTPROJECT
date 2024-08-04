@@ -35,9 +35,8 @@ public class Killzone : MonoBehaviour
 
     private void KillPlayer(GameObject player)
     {
-        Debug.Log("Killing player");
         player.SetActive(false);
-        Invoke("RespawnPlayer", 1f);
+        GameManager.Instance.gameOver();
     }
 
     private void RespawnPlayer()
